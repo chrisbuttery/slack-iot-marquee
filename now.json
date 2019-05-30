@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "name": "slack-iot-marquee",
+  "builds": [{
+    "src": "./index.js",
+    "use": "@now/node-server"
+  }],
+  "routes": [
+    {
+      "src": "/api/display",
+      "methods": ["POST"],
+      "dest": "index.js"
+    },
+    {
+      "src": "/api/hr",
+      "methods": ["POST"],
+      "dest": "index.js"
+    }
+  ],
+  "env": {
+    "PDEVICE": "@slack-display-device",
+    "PUSER": "@slack-display-user",
+    "PPASS": "@slack-display-pass",
+    "HRKEY": "@slack-display-hrkey",
+    "DISPLAYKEY": "@slack-display-displaykey"
+  }
+}
