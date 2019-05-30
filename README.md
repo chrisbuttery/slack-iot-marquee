@@ -4,7 +4,7 @@ Scripts for node api + particle IOT device
 
 > Use Slack slash commands to send tect to a scrolling marquee!
 
-![alt tag](https://github.com/chrisbuttery/slack-iot-marquee/blob/master/marquee.gif)
+![alt tag](https://github.com/chrisbuttery/slack-iot-marquee/blob/master/marquee.png)
 
 # now
 
