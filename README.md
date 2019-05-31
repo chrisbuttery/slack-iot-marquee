@@ -6,6 +6,8 @@ Scripts for node api + particle IOT device
 
 ![alt tag](https://github.com/chrisbuttery/slack-iot-marquee/blob/master/marquee.png)
 
+This example using a Particle.io [Photon](https://store.particle.io/collections/wifi), however the [Argon or Boron](https://store.particle.io/collections/cellular) will work fine as well.
+
 # now
 
 This example project uses [now](https://zeit.co/now "Now — Global Serverless Deployments") to host the nodeJS api.  
