@@ -66,30 +66,7 @@ You can get away with just using an app like [Postman](https://www.getpostman.co
 You will just need to make sure the body contains `text` and the correct slash command `token`.
 
 ```
-curl -X POST \
-  https://path_to_your_server/api/hr \
-  -H 'Accept: */*' \
-  -H 'Cache-Control: no-cache' \
-  -H 'Connection: keep-alive' \
-  -H 'Content-Type: application/json' \
-  -d '{ "text": "Pete", "token": "vUffGYMsJtrLYx5K9O52DSjM" }'
+curl -d '{ "text": "Pete", "token": "your_slash_command_token" }' -H "Content-Type: application/json" -X POST https://slack-iot-marquee.chrisbuttery.now.sh/api/hr
+
+Pete is required by HR.%
 ```
-
-curl -X POST \
-  https://slack-iot-marquee.chrisbuttery.now.sh/api/hr \
-  -H 'Accept: */*' \
-  -H 'Cache-Control: no-cache' \
-  -H 'Connection: keep-alive' \
-  -H 'Content-Type: application/json' \
-  -H 'Host: slack-iot-marquee.chrisbuttery.now.sh' \
-  -H 'Postman-Token: fcabec8f-ac4d-43bb-bf76-53d9ef501e95,ac702526-96a8-4bed-ba64-b6cfe26f9321' \
-  -H 'User-Agent: PostmanRuntime/7.13.0' \
-  -H 'accept-encoding: gzip, deflate' \
-  -H 'cache-control: no-cache' \
-  -H 'content-length: 55' \
-  -d '{ "text": "Pete", "token": "vUffGYMsJtrLYx5K9O52DSjM" }'
-
-  # Device
-
-Here is a schematic for the [Particle.io Photon](https://store.particle.io/products/photon) I used for this demo.
-
