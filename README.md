@@ -68,7 +68,7 @@ You can get away with just using an app like [Postman](https://www.getpostman.co
 You will just need to make sure the body contains `text` and the correct slash command `token`.
 
 ```
-curl -d '{ "text": "Pete", "token": "your_slash_command_token" }' -H "Content-Type: application/json" -X POST https://slack-iot-marquee.chrisbuttery.now.sh/api/hr
+curl -d '{ "text": "Pete", "token": "your_slash_command_token" }' -H "Content-Type: application/json" -X POST https://path_to_your_server/api/hr
 
 Pete is required by HR.%
 ```
