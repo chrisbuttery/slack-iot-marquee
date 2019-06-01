@@ -35,7 +35,7 @@ If you wish to recreate this project, you'll need a [Slack](https://slack.com) a
 
 Once created, you will need to allow the slash command integrations. `Administrations > Manage apps > custom-integrations`.
 
-Once enabled, create teh following integrations:
+Once enabled, create the following integrations:
 
 ```
 Command: /hr
