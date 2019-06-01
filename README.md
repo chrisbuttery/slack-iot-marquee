@@ -4,6 +4,8 @@ Scripts for node api + particle IOT device
 
 > Use Slack slash commands to send text to a scrolling marquee!
 
+Project: [https://www.hackster.io/buttahz/slack-iot-marquee-459399](https://www.hackster.io/buttahz/slack-iot-marquee-459399)
+
 ![alt tag](https://github.com/chrisbuttery/slack-iot-marquee/blob/master/marquee.png)
 
 This example using a Particle.io [Photon](https://store.particle.io/collections/wifi), however the [Argon or Boron](https://store.particle.io/collections/cellular) will work fine as well.
