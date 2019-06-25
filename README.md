@@ -4,6 +4,8 @@ Scripts for node api + particle IOT device
 
 > Use Slack slash commands to send text to a scrolling marquee!
 
+Project: [https://www.hackster.io/buttahz/slack-iot-marquee-459399](https://www.hackster.io/buttahz/slack-iot-marquee-459399)
+
 ![alt tag](https://github.com/chrisbuttery/slack-iot-marquee/blob/master/marquee.png)
 
 This example using a Particle.io [Photon](https://store.particle.io/collections/wifi), however the [Argon or Boron](https://store.particle.io/collections/cellular) will work fine as well.
@@ -68,7 +70,7 @@ You can get away with just using an app like [Postman](https://www.getpostman.co
 You will just need to make sure the body contains `text` and the correct slash command `token`.
 
 ```
-curl -d '{ "text": "Pete", "token": "your_slash_command_token" }' -H "Content-Type: application/json" -X POST https://slack-iot-marquee.chrisbuttery.now.sh/api/hr
+curl -d '{ "text": "Pete", "token": "your_slash_command_token" }' -H "Content-Type: application/json" -X POST https://path_to_your_server/api/hr
 
 Pete is required by HR.%
 ```
