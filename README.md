@@ -74,6 +74,3 @@ curl -d '{ "text": "Pete", "token": "your_slash_command_token" }' -H "Content-Ty
 
 Pete is required by HR.%
 ```
-
-
-curl -d '{ "text": "Pete" }' -H "Content-Type: application/json" -X POST https://mesh-circle-ci.chrisbuttery.now.sh/api/display
