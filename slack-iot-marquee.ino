@@ -1,4 +1,4 @@
-// NOTE: Make sur eyou add the max7219 library to your project in the Particle IDE.
+// NOTE: Make sure you add the max7219 library to your project in the Particle IDE.
 #include <ledmatrix-max7219-max7221.h>
 
 LEDMatrix *led;

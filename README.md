@@ -18,7 +18,7 @@ The manifest exposes the 2 available routes of the api (`/hr` and `/display`), a
 # .env
 
 Keep your secrets safe!  
-This example references environment variables, so if you wish to use this api locally, you shoudl created an `.env` file and include your secret credentials.
+This example references environment variables, so if you wish to use this api locally, you should create an `.env` file and include your secret credentials.
 
 The Slack slash commands are each assigned an `id` which is passed along in the payload. For some added security, our api checks if we have the correct `HRKEY` and `DISPLAYKEY` values.
 
@@ -35,7 +35,7 @@ If you wish to recreate this project, you'll need a [Slack](https://slack.com) a
 
 Once created, you will need to allow the slash command integrations. `Administrations > Manage apps > custom-integrations`.
 
-Once enabled, create teh following integrations:
+Once enabled, create the following integrations:
 
 ```
 Command: /hr
@@ -72,3 +72,6 @@ curl -d '{ "text": "Pete", "token": "your_slash_command_token" }' -H "Content-Ty
 
 Pete is required by HR.%
 ```
+
+
+curl -d '{ "text": "Pete" }' -H "Content-Type: application/json" -X POST https://mesh-circle-ci.chrisbuttery.now.sh/api/display
